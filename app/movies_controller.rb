@@ -29,6 +29,7 @@ def can_be_created_in_a_block(args = { title: "The Room", release_date: 2003 })
     m.title = args[:title]
     m.release_date = args[:release_date]
     m.update({ title: "Home Alone", release_date: 1990 })
+  end
 end
 
 def can_get_the_first_item_in_the_database
